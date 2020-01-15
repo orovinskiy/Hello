@@ -18,5 +18,7 @@ $f3->route('GET /', function(){
     echo $view->render('views/home.html');
 });
 
+$hi = 'Its litty';
+
 //Run fat free
 $f3->run();
